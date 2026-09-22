@@ -3,16 +3,16 @@
 @layer base {
   body {
     font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    
+    /* Changed from dark gray to a very dark, readable green-slate */
     color: #1a2e20; 
-    
+    /* Changed from stark white to a very soft, light mint green */
     background-color: #f2fcf5; 
     -webkit-font-smoothing: antialiased;
   }
 
   h1, h2, h3, .font-document-title {
     font-family: 'Crimson Pro', Georgia, serif;
-  
+    /* Added a rich, bold green specifically for your headings */
     color: #166534; 
   }
   
@@ -36,6 +36,7 @@
   .print-page {
     box-shadow: none !important;
     margin: 0 !important;
+    /* Removed the harsh red border (#dc2626) and replaced it with a subtle light green */
     border: 1px solid #d1fae5 !important; 
     page-break-after: always;
     break-after: page;
