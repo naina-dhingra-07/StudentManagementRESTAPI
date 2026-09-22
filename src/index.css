@@ -3,13 +3,22 @@
 @layer base {
   body {
     font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    color: #1f2937;
-    background-color: #fcfcfc;
+    
+    color: #1a2e20; 
+    
+    background-color: #f2fcf5; 
     -webkit-font-smoothing: antialiased;
   }
 
-  h1, .font-document-title {
+  h1, h2, h3, .font-document-title {
     font-family: 'Crimson Pro', Georgia, serif;
+  
+    color: #166534; 
+  }
+  
+  a {
+    /* Highlights links in a vibrant green */
+    color: #15803d;
   }
 }
 
@@ -27,7 +36,7 @@
   .print-page {
     box-shadow: none !important;
     margin: 0 !important;
-    border: 1px solid #dc2626 !important;
+    border: 1px solid #d1fae5 !important; 
     page-break-after: always;
     break-after: page;
     width: 100% !important;
